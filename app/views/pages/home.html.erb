@@ -1,0 +1,6 @@
+<h1>Wellcome</h1>
+
+<div data-controller="popover" data-popover-url-value="<%= user_card_path(1) %>">
+  My Popover
+  <span data-action="mouseenter->popover#show mouseleave->popover#hide"><%= link_to "Profile card", test_case_path %></span>
+</div>
